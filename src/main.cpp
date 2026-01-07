@@ -20,7 +20,7 @@ class $modify(PlayLayer) {
 				}
 			}
 
-			obj->m_physicalCheckpointObject->m_hasSpecialChild = true;
+			obj->m_physicalCheckpointObject->m_addToNodeContainer = true;
 
 			CCSprite* outer = CCSprite::create("checkpoint_outer.png"_spr);
 			outer->setID("outer"_spr);
